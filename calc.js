@@ -16,7 +16,6 @@ botonNumeros.forEach(function (boton) {
 botonOpera.forEach(function (boton) {
     boton.addEventListener('click', function () {
         selectOperacion(boton.innerText);
-        alert(boton.innerText);
     })
 });
 botonIgual.addEventListener('click', function() {
@@ -86,5 +85,3 @@ function actualizarDisplay(){
 }
 
 clear();
-
-
